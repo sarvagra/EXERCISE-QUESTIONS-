@@ -57,8 +57,38 @@ A3. ELECTRICITY BILL CODE:
     print("NUMBER OF UNITS USED=",units)
     print("TOTAL AMOUNT PAYABLE=RS.",amt)
 
+## Q4. Create a list of numbers from 1 to 100. Use for loop and while loop to calculate the cube of each number and if the cube of that number is divisible by 4 or 5 then append that number in a list and print that list.
+
+A4. REQUIRED CODE:
+
+    l1=[]
+    lcube=[]
+    lfinal=[]
+    for i in range(1,101):
+        l1.append(i)
+        lcube.append(i*i*i)
+    
+    i=0
+    while i<100:
+        if lcube[i]%4 == 0 or lcube[i]%5== 0:
+            lfinal.append(lcube[i])
+    i+=1
+    
+    print(l1)   
+    print(lcube) 
+    print(lfinal) 
 
 
+## Q5. Write a program to filter count vowels in the below-given string.<br>string = "I want to become a data scientist"
 
-
+A5. PROGRAM TO FILTER COUNT VOWELS :
+    
+    string = "I want to become a data scientist"
+    count=0
+    l=len(string)
+    for i in range(0,l-1):
+        if string[i]=='a' or string[i]=='e' or string[i]='i' or string[i]='o' or string[i]='u':
+            count+=1
+        
+    print(count)
 
