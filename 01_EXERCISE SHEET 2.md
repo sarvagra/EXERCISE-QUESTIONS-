@@ -1,4 +1,4 @@
-# EXERCISE 2
+# EXERCISE-2
 ## Q1. Which keyword is used to create a function? Create a function to return a list of odd numbers in the range of 1 to 25.
 
 A1. def keyword is used to create a function in python. A function to return a list of odd numbers in the range of 1 to 25:
